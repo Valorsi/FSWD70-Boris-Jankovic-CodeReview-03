@@ -125,7 +125,7 @@ h4 {
 
 .flist,
 a {
-  margin-left: 1%;
+  margin-left: 5%;
   display: inline-block;
   font-size: 18px;
   color: white;
@@ -148,8 +148,9 @@ a {
   display: flex;
   justify-content: center;
   color: #2C2C2C;
-  font-size: 40px;
-  position: relative; }
+  font-size: 4vw;
+  position: relative;
+  margin-bottom: 10%; }
 
 .inputhead {
   position: relative;
@@ -158,10 +159,14 @@ a {
 .inputrow {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 30px; }
+  margin-bottom: 5%; }
 
 .inputfield1 {
-  height: 30px; }
+  height: 2vw;
+  border-radius: 5px;
+  border: solid;
+  border-color: rgba(1, 1, 1, 0.5);
+  border-width: 1px; }
 
 .calcbtn {
   display: flex;
@@ -171,8 +176,11 @@ a {
   border-radius: 10px;
   color: #ffffff;
   background-color: #339235;
-  height: 50px;
-  width: 200px;
-  font-size: 30px; }
+  height: 5%;
+  width: 20%;
+  font-size: 2vw;
+  border: solid;
+  border-color: rgba(1, 1, 1, 0.5);
+  border-width: 1px; }
 
 /*# sourceMappingURL=style.css.map */
