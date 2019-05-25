@@ -3,7 +3,7 @@
 
 <head>
     <title>CodeReview 03</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 
 <body>
@@ -26,17 +26,31 @@
                         <p class="inputxt">Great Coverage Begins<br> with a custom quote </p>
                     </div>
                     <div class="inputrow">
-                        <input type="text" name="" value="" placeholder="Your Name" class="inputfield1">
-                        <input type="number" name="" value="" placeholder="Age" class="inputfield1">
+                    	<form id="form1">
+                        <input type="text"  placeholder="Your Name" name="name" class="inputfield1">
+                    	</form>
+                    	<form id="form2">
+                        <input type="number"  placeholder="Age" class="inputfield2" name="age">
+                    	</form>
                     </div>
                     <div class="inputrow">
-                        <input type="text" name="" value="" placeholder="Country" class="inputfield1">
-                        <input type="number" name="" value="" placeholder="Horsepower" class="inputfield1">
+                    	<form id="form3">
+                        <select class="inputfield3" name="country">
+                        	<option>Your Country</option>
+                        	<option>Greece</option>
+                        	<option>Austria</option>
+                        	<option>Hungary</option>
+                        </select>
+                    	</form>
+                    	<form id="form4">
+                        <input type="number"  placeholder="Horsepower" class="inputfield4" name="horse">
+                    </form>
                     </div>
                     <div class="calcbtn">
-                        <button onclick="function()" class="btn">Calculate!</button>
+                        <button onclick="calculateInsurance()" class="btn">Calculate!</button>
                     </div>
                     <div class="calcresult">
+                    	<p id="result"></p>
                     </div>
                 </div>
                 <img src="img/traffic.jpg" class="heroimage">
@@ -88,6 +102,7 @@
             </div>
         </footer>
     </div>
+   <script src="Javascript/script.js"></script>
 </body>
 
 </html>

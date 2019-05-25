@@ -198,13 +198,16 @@ a {
     margin-bottom: 5%;
 }
 
-.inputfield1 {
+.inputfield1, .inputfield2, .inputfield3, .inputfield4 {
     height: 2vw;
+    width: 100%;
     border-radius:5px;
     border:solid;
     border-color:rgba(1,1,1,0.5);
     border-width:1px;
+
 }
+
 
 .calcbtn {
     display: flex;
@@ -221,4 +224,22 @@ a {
     border:solid;
     border-color:rgba(1,1,1,0.5);
     border-width:1px;
+}
+
+#form1, #form2, #form3, #form4 {
+    height: 2vw;
+    width: 30%;
+
+}
+
+.calcresult {
+	display:flex;
+	justify-content:center;
+	margin-top:10%;
+	font-size:2vw;
+	color:#5EA15A;
+}
+
+#result{
+	display:none;
 }
