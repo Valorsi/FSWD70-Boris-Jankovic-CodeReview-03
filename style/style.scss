@@ -183,7 +183,7 @@ a {
     color: #2C2C2C;
     font-size: 4vw;
     position: relative;
-    margin-bottom:10%;
+    margin-bottom: 10%;
 }
 
 .inputhead {
@@ -198,13 +198,16 @@ a {
     margin-bottom: 5%;
 }
 
-.inputfield1, .inputfield2, .inputfield3, .inputfield4 {
+.inputfield1,
+.inputfield2,
+.inputfield3,
+.inputfield4 {
     height: 2vw;
     width: 100%;
-    border-radius:5px;
-    border:solid;
-    border-color:rgba(1,1,1,0.5);
-    border-width:1px;
+    border-radius: 5px;
+    border: solid;
+    border-color: rgba(1, 1, 1, 0.5);
+    border-width: 1px;
 
 }
 
@@ -221,55 +224,58 @@ a {
     height: 5%;
     width: 20%;
     font-size: 2vw;
-    border:solid;
-    border-color:rgba(1,1,1,0.5);
-    border-width:1px;
+    border: solid;
+    border-color: rgba(1, 1, 1, 0.5);
+    border-width: 1px;
 }
 
-#form1, #form2, #form3, #form4 {
+#form1,
+#form2,
+#form3,
+#form4 {
     height: 2vw;
     width: 30%;
 
 }
 
 .calcresult {
-	display:flex;
-	justify-content:center;
-	margin-top:10%;
-	font-size:2vw;
-	color:#5EA15A;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 2vw;
+    color: #5EA15A;
 }
 
-#result{
-	display:none;
+#result {
+    display: none;
 }
 
 .cat {
-	margin-left:20%;
-	margin-top:10%;
-	height:auto;
-	width:20%;
-	position:absolute;
-	z-index:2;
-	border:solid;
-	border-color:rgba(240,240,240,0.4);
-	background-color:rgba(240,240,240,0.4);
+    margin-left: 20%;
+    margin-top: 10%;
+    height: auto;
+    width: 20%;
+    position: absolute;
+    z-index: 2;
+    border: solid;
+    border-color: rgba(240, 240, 240, 0.4);
+    background-color: rgba(240, 240, 240, 0.4);
 }
 
-.kitty{
-	height:100%;
-	width:100%;
-	
+.kitty {
+    height: 100%;
+    width: 100%;
+
 }
 
 .cat2 {
-	margin-left:60%;
-	margin-top:10%;
-	height:auto;
-	width:20%;
-	position:absolute;
-	z-index:2;
-	border:solid;
-	border-color:rgba(240,240,240,0.4);
-	background-color:rgba(240,240,240,0.4);
+    margin-left: 60%;
+    margin-top: 10%;
+    height: auto;
+    width: 20%;
+    position: absolute;
+    z-index: 2;
+    border: solid;
+    border-color: rgba(240, 240, 240, 0.4);
+    background-color: rgba(240, 240, 240, 0.4);
 }

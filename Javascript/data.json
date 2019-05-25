@@ -1,3 +1,16 @@
-var teamMembers = [{"name":"Shiva", "email":"PinkPaw64@kittymail.com","image":"img/shiva.jpg"},
-	{"name":"Morty","email":"NapMaster22@kittymail.com","image":"img/morty.jpg"},
-	{"name":"Fritz", "email":"fritz@index.com","image":"img/person3.png"}];
+var teamMembers = [
+{
+    "name": "Shiva",
+    "email": "PinkPaw64@kittymail.com",
+    "image": "img/shiva.jpg"
+},
+{
+    "name": "Morty",
+    "email": "NapMaster22@kittymail.com",
+    "image": "img/morty.jpg"
+},
+{
+    "name": "Fritz",
+    "email": "fritz@index.com",
+    "image": "img/person3.png"
+}];
